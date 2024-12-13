@@ -1,0 +1,32 @@
+# Ignorar el entorno virtual
+venv/
+env/
+
+# Archivos de configuración sensibles
+.env
+
+# Base de datos SQLite
+db.sqlite3
+
+# Archivos de migraciones generados
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos de log
+*.log
+
+# Archivos de distribución o compilación
+build/
+dist/
+*.egg-info/
+
+# Archivos de cobertura y reportes
+.coverage
+*.cover
+*.log
